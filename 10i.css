@@ -58,11 +58,11 @@ button
   
 }
 
-@media(max-width:771px)
+@media(max-width:768px)
 {
   .container
   {
-    margin:0 150px;
+    margin:0 100px;
   }
   button
 {
@@ -86,11 +86,11 @@ button
 }
 }
 
-@media (max-width:426px)
+@media (max-width:610px)
 {
   .container
   {
-    margin:0;
+    margin:0 50px;
   }
   button
 {
@@ -103,6 +103,50 @@ button
 {
   font-size: 20px;
 }
+
+}
+
+@media (max-width:610px)
+{
+  .container
+  {
+    margin:0 30px;
+  }
+}
+
+@media (max-width:469px)
+{
+  .container
+  {
+    margin:0 10px;
+  }
+}
+
+@media (max-width:429px)
+{
+  .container
+  {
+    margin:0;
+  }
+}
+@media (max-width:409px)
+{
+  .container
+  {
+    margin:0;
+  }
+
+  button
+{
+  width: 50px;
+  height:50px;
+  font-size:20px;
+}
+.clear-button
+{
+  font-size: 15px;
+}
+
 
 }
 
@@ -126,7 +170,8 @@ button
 
 }
 
-@media (max-width:322px)
+
+@media (max-width:349px)
 {
   button
 {
@@ -143,5 +188,86 @@ button
   background-color: rgb(14, 14, 14);
   height: 80px;
   width: 250px;
+}
+}
+
+
+@media (max-width:310px)
+{
+  button
+{
+  width: 40px;
+  height:40px;
+  font-size:15px;
+}
+.clear-button
+{
+  font-size: 10px;
+}
+}
+
+@media (max-width:289px)
+{
+button
+{
+  width: 35px;
+  height:35px;
+  font-size:12px;
+}
+.clear-button
+{
+  font-size: 10px;
+}
+.screen
+{
+  width: 200px;
+}
+}
+
+@media (max-width:269px)
+{
+body 
+{
+  margin: 0;
+}
+}
+
+@media (max-width:253px)
+{
+  button
+  {
+    width: 30px;
+    height:30px;
+    font-size:10px;
+  }
+  .clear-button
+{
+  font-size: 8px;
+}
+}
+
+@media (max-width:233px)
+{
+  button
+  {
+    width: 26px;
+    height:26px;
+  }
+  .clear-button
+{
+  font-size: 5px;
+}
+}
+
+@media (max-width:217px)
+{
+  button
+  {
+    width: 20px;
+    height:20px;
+  }
+  .clear-button
+{
+  font-size: 4px;
 }
 }
