@@ -2,7 +2,7 @@ body
 {
   font-family: Arial, Helvetica, sans-serif;
   color: white;
-  background-color: rgb(209, 216, 255);
+  background-color: rgb(0, 0, 0);
   height: auto;
 }
 .container
@@ -48,12 +48,19 @@ button
 }
 
 
-@media(max-width:1024px)
+@media(max-width:1224px)
 {
   .container
 {
   height: auto;
   margin: 0 200px;
+}
+button
+{
+  width: 62px;
+  height: 62px;
+  border-radius:50%;
+  font-size:25px;
 }
   
 }
@@ -66,8 +73,8 @@ button
   }
   button
 {
-  width: 70px;
-  height: 70px;
+  width: 62px;
+  height: 62px;
   border-radius:50%;
   font-size:25px;
 }
